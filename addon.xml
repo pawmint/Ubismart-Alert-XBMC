@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.ubismartalert" version="0.1" name="Hello World GUI" provider-name="Romain Endelin">
+    <requires>
+        <import addon="xbmc.python" verson="2.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="alert.py">
+        <provides>program</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Ubismart Alert</summary>
+        <description>Send an alert to the elder through his TV.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
