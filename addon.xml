@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.program.ubismartalert" version="0.1" name="Hello World GUI" provider-name="Romain Endelin">
+<addon id="plugin.program.ubismartalert" version="0.1" name="Ubismart Alert" provider-name="Romain Endelin">
     <requires>
         <import addon="xbmc.python" verson="2.0"/>
     </requires>
