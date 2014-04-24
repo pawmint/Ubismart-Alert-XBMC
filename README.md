@@ -11,7 +11,7 @@ Copy this folder in your $HOME/.xbmc/addons directory.
 
 Assuming you are testing on localhost, run the following command (you may change the text in line1 and line2):
 ```bash
-$ curl -i http://localhost:8080/jsonrpc -X POST -H "Content-Type: application/json" -d '{"jsonrpc": "2.0", "id": 1, "method": "Addons.ExecuteAddon", "params": { "addonid": "plugin.program.helloworld_gui", "params": { "line1": "Mr. Endelin", "line2": "It is time to take your medications" } } }'
+$ curl -i http://localhost:8080/jsonrpc -X POST -H "Content-Type: application/json" -d '{"jsonrpc": "2.0", "id": 1, "method": "Addons.ExecuteAddon", "params": { "addonid": "plugin.program.ubismartalert", "params": { "line1": "Mr. Endelin", "line2": "It is time to take your medications" } } }'
 ```
 
 # Develop
